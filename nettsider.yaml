@@ -21,6 +21,7 @@ infoskjermer:
   uføre:
     fanetid: 60
     vis_standardnettsider: False
+    browser: "firefox"
     nettsider:
       - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#fun"
       - "https://data.ansatt.nav.no/quarto/3c7de1ff-2a5b-4a0b-91f8-d2e68a60bb0d/infoskjerm-i-A6-plott.html#uføre"
@@ -32,6 +33,7 @@ infoskjermer:
       # - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=411-dashbordtall"
       # - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&skjul_m%25C3%25A5ned=&skjul_opprettet_av=BPEN091&tab=380-oversikt"
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
+      - "https://grafana.nav.cloud.nais.io/d/frontend-web-vitals/frontend-web-vitals?orgId=1&from=now-6h&to=now&timezone=browser&var-app=din-uforetrygd&var-env=PD969E40991D5C4A8"
 
   # infoskjerm 2 for ledelsen - nå hos regelverk
   ledelsen2: # regelverk!
