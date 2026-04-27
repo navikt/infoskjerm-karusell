@@ -29,12 +29,15 @@ infoskjermer:
       - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=1245-diagnosekoder-i-pesys"
       # - "https://data.ansatt.nav.no/quarto/d1e4cefc-2658-4519-a8c0-0f29db301d9d/uforemottakere.html#tilgang-og-avgang"
       # - "https://data.ansatt.nav.no/quarto/d1e4cefc-2658-4519-a8c0-0f29db301d9d/uforemottakere.html#aldersgrupper"
-      - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&tab=381-infoskjerm1"
+      # - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&tab=381-infoskjerm1"
       - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=379-mottakere"
       # - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=411-dashbordtall"
       # - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&skjul_m%25C3%25A5ned=&skjul_opprettet_av=BPEN091&tab=380-oversikt"
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/d/frontend-web-vitals/frontend-web-vitals?orgId=1&from=now-6h&to=now&timezone=browser&var-app=din-uforetrygd&var-env=PD969E40991D5C4A8"
+      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/din-uforetrygd-frontend-borger?q=ufore&environment=prod&tab=frontend"
+      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/inntektsplanleggeren-frontend-borger?q=ufore&environment=prod&tab=frontend"
+      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/inntektsplanleggeren-frontend-veileder?q=ufore&environment=prod&tab=frontend"
+      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/namespaces/ufore?environment=prod"
 
   # infoskjerm 2 for ledelsen - nå hos regelverk
   ledelsen2: # regelverk!
